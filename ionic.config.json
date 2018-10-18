@@ -1,0 +1,7 @@
+{
+  "name": "japanesedict",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
