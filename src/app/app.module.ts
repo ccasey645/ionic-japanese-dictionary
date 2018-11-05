@@ -11,6 +11,7 @@ import { FavoritesPage } from "../pages/favorites/favorites";
 import { SearchHistoryPage } from "../pages/search-history/search-history";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {HTTP} from "@ionic-native/http";
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    HTTP,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
